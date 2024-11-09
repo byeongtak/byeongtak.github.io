@@ -1,39 +1,338 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+---
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+	<title>My HTML Page</title>
+	<style>
+		.no-margin {
+			margin: 0;
+			white-space: nowrap;
+		}
+	</style>
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to my personal website. Here you can find information about my academic and professional journey.</p>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate individual with a keen interest in technology and innovation. I believe in using technology to improve everyday life.</p>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>M.S. in Bioengineering from Seoul National University, 2017</li>
-            <li>B.S. in Mechanical Engineering from Pusan National University A, 2015</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Contact me at: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-    </footer>
-</body>
-</html>
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h5>About</h5>
+  Hello! I am a Ph.D. Student at the <b><a href="https://www.cmu.edu/">Carnegie Mellon University</a></b> <b><a href="https://lti.cmu.edu/">Language Technologies Institute</a></b>, co-advised by <b><a href="https://phontron.com/">Graham Neubig</a></b> and <b><a href="https://wellecks.com/">Sean Welleck</a></b>.
+  I obtained my M.S. degree in Artificial Intelligence at <b><a href="https://gsai.kaist.ac.kr/">KAIST AI</a></b>, where I was fortunate to be advised by <b><a href="https://seominjoon.github.io/">Minjoon Seo</a></b>.
+  Prior to that, I was a research intern at <b><a href="https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab">NAVER AI Lab</a></b> and <b><a href="https://www.lgresearch.ai/">LG AI Research</a></b>, and did my B.S. in Computer Science at <b><a href="https://cs.yonsei.ac.kr/eng/">Yonsei University</a></b>.
+  <br>
+  <br>
+  My primary research focus is to establish a science of language model behaviors.
+  Concretely, my research interests include: (i) developing <b>LLM Evaluation frameworks</b> (e.g., LLM-as-a-Judge, Meta-Evaluation) that systematically identify what specific capabilities language models lack and (ii) looping back the insights acquired from evaluation to train stronger LMs for <b>Weak-to-Strong generalization</b> (e.g., reward overoptimization, training with verbal feedback).
+  <br>
+  <br>
+  I am hosting weekly office hours to discuss about research projects or talk about Ph.D. application. Please sign up at this <a href="https://calendly.com/seungonk-andrew/mentoring-or-discussion-with-seungone">Calendly Link</a>! If you are seeking for mentorship, please send an email that briefly mentions what you have done and what you'd like to work on with me :)
+</div>
+
+<!-- ========== News ========== -->
+<div class="docs-section">
+  <h5>News</h5>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">October 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      I received the <a href="https://neclab.eu/careers/nec-student-research-fellowship-program">NEC Student Research Fellowship</a> which will thankfully support my research on harnessing synthetic data for improving LLMs!
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">October 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2410.02902">MBR Decoding / Distillation</a>, <a href="https://arxiv.org/abs/2410.17578">MM-Eval</a>, and <a href="https://arxiv.org/abs/2410.16153">Pangea</a> papers are released!
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">September 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2405.17977">System Message Generalization</a> and <a href="https://arxiv.org/abs/2407.14933">Consent in Crisis</a> papers got accepted to <b><a href="https://neurips.cc/">NeurIPS 2024</a></b>!
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">September 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2405.01535">Prometheus 2</a> and <a href="https://arxiv.org/abs/2404.02575">Think-and-Execute</a> papers got accepted to <b><a href="https://2024.emnlp.org/">EMNLP 2024</a></b> and <a href="https://arxiv.org/abs/2404.10346">Self-Explore</a> to EMNLP 2024 Findings!
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">May 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2401.10695">LangBridge</a> and <a href="https://arxiv.org/abs/2402.11597">Multi-Task Inference</a> papers got accepted to <b><a href="https://2024.aclweb.org/">ACL 2024</a></b> and <a href="https://arxiv.org/abs/2401.06591">Prometheus-Vision</a> to ACL 2024 Findings!
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">Mar 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      I got admitted at <b><a href="https://www.cmu.edu/">Carnegie Mellon University</a></b> <b><a href="https://lti.cmu.edu/">Language Technologies Institute</a></b> as a Ph.D. student.
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">Jan 2024</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2310.08491">Prometheus</a> and <a href="https://arxiv.org/abs/2307.10928">Flask</a> papers got accepted to <b><a href="https://iclr.cc/">ICLR 2024</a></b>! 
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">Oct 2023</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2305.14045">CoT Collection</a> paper got accepted to <b><a href="https://2023.emnlp.org/">EMNLP 2023</a></b>! 
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">Apr 2023</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2302.03202">ExpertLM</a> paper got accepted to <b><a href="https://icml.cc/">ICML 2023</a></b>!
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">Feb 2023</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2303.03628">CoTEVer</a> paper got accepted to <b><a href="https://2023.eacl.org/">EACL 2023 (Demo Track)</a></b>!
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">Oct 2022</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      I got admitted at <a href="https://gsai.kaist.ac.kr/">KAIST AI</a> as a M.S. student. I will continue doing research at <a href="https://lklab.kaist.ac.kr/">LK Lab</a>.
+    </div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-12 col-md-12 text-md-left">
+      <b class="bbold" style="color:#fa8072;">Oct 2022</b>&nbsp;&nbsp;&nbsp;&nbsp;
+      Our <a href="https://arxiv.org/abs/2209.00930">SICK</a> paper got accepted to <b><a href="https://coling2022.org/">COLING 2022</a></b>!
+    </div>
+  </div>
+</div>
+<p></p>
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h5>Education</h5>
+        <div class="paper">
+          <p class="title"><b>Language Technologies Institute, Carnegie Mellon University<b style="float:right;">Sep. 2024 - Present</b></b></p>
+          
+          <p>Ph.D. in Computer Science (Advisors: <a href="https://phontron.com/">Graham Neubig</a> and <a href="https://wellecks.com/">Sean Welleck</a>)</p>
+          <p></p>
+        </div>
+
+        <div class="paper">
+          <p class="title"><b>KAIST AI<b style="float:right;">Mar. 2023 - Aug. 2024</b></b></p>
+          
+          <p>M.S. in Artificial Intelligence (Advisor: <a href="https://seominjoon.github.io/">Minjoon Seo</a>)</p>
+          <p></p>
+        </div>
+      
+        <div class="paper">
+          <p class="title"><b>Yonsei University<b style="float:right;">Mar. 2018 - Feb. 2023</b></b></p>
+          
+          <p>B.S. in Computer Science</p>
+          <p></p>
+        </div>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h5>Publications</h5>
+
+  <!-- <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
+  </p>
+
+  <!-- <ul class="tab-nav">
+    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul> -->
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <div class="row">
+            <!--
+            <div class="four columns">
+              <div class="figure">
+                <img src="{{ paper.image }}" width="100%">
+              </div>
+            </div>
+            -->
+            <div class="twelve columns">
+              {% if paper.year %}
+                <p><h5>{{ paper.year }}</h5><hr /></p>
+              {% endif %}
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
+
+                {% if paper.poster %}
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                {% endif %}
+
+                {% if paper.video %}
+                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+                
+                {% if paper.slides %}
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                {% endif %}
+                
+                {% if paper.twitter %}
+                  <a class="button" href="{{ paper.twitter }}" target="_blank">Twitter</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>       
+        </div>
+      {% endfor %}
+      <h6><b><i>( * indicates equal contribution )</i></b></h6>
+    </div>
+    
+    <!-- <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+        <div class="paper">
+          <div class="row">
+            <div class="four columns">
+              <div class="figure">
+                <img src="{{ paper.image }}" width="100%">
+              </div>
+            </div>
+            <div class="twelve columns">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+                {% endif %}
+                {% if paper.poster %}
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                {% endif %}
+                {% if paper.video %}
+                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                {% endif %}
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+                
+                {% if paper.slides %}
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                {% endif %}
+                {% if paper.twitter %}
+                  <a class="button" href="{{ paper.twitter }}" target="_blank">Twitter</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+    </div> -->
+    
+</div>
+
+<!-- ========== PROJECTS ========== -->
+<!-- <div class="docs-section" id="projects">
+  <h4>Projects</h4>
+
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div> -->
+
+<!-- ========== RESUME ========== -->
+<div class="docs-section" id="resume">
+  <h4>Vitæ</h4>
+
+  <p>Full CV in <a href={{ "/assets/cv/CV.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+
+  <!-- The Timeline -->
+  <ul class="timeline">
+    {% for exp in site.data.experience.experiences %}
+    <li>
+      {% if exp.category == "work" %}
+      <div class="direction-l">
+      {% else %}
+      <div class="direction-r">
+      {% endif %}
+        <div class="flag-wrapper">
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
+        </div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+</div>
