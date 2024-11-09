@@ -1,4 +1,11 @@
 papers:
+  - title: "Graph Structure Based Data Augmentation"
+    year: "2024"
+    authors: "Kyung Geun Kim*, <b><u>Byeong Tak Lee</u></b>*"
+    venue: "Biomedical Engineering letters"
+    paper_pdf: "https://arxiv.org/abs/2205.14619"
+    selected: y
+
   - title: "Self Attention with Temporal Prior: Can We Learn More from Arrow of Time?"
     year: 2024
     authors: "Kyung Geun Kim*, <b><u>Byeong Tak Lee</u></b>*"
@@ -76,13 +83,6 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2308.12492"
     selected: y
     
-  - title: "Graph Structure Based Data Augmentation"
-    year: "2024"
-    authors: "Kyung Geun Kim, <b><u>Byeong Tak Lee</u></b>"
-    venue: "Biomedical Engineering letters"
-    paper_pdf: "https://arxiv.org/abs/2205.14619"
-    selected: y
-
   - title: "TADA: Temporal Adversarial Data Augmentation for Time Series Data"
     year: "preprint"
     authors: "<b><u>Byong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
