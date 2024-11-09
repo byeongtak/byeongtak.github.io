@@ -70,24 +70,35 @@ papers:
     selected: y
 
   - title: "Revisiting Neural Network Scale for ECG Classification"
+    year: "preprint"
     authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-Myoung Kwon"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2308.12492"
     selected: y
+    
+  - title: "Graph Structure Based Data Augmentation"
+    year: "2024"
+    authors: "Kyung Geun Kim, <b><u>Byeong Tak Lee</u></b>"
+    venue: "Biomedical Engineering letters"
+    paper_pdf: "https://arxiv.org/abs/2205.14619"
+    selected: y
 
   - title: "TADA: Temporal Adversarial Data Augmentation for Time Series Data"
+    year: "preprint"
     authors: "<b><u>Byong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2407.15174"
     selected: y
 
   - title: "Foundation Models for Electrocardiograms"
+    year: "preprint"
     authors: "Junho Song, Jong-Hwan Jang, <b><u>Byong Tak Lee</u></b>, DongGyun Hong, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2407.07110"
     selected: y
 
   - title: "New Test-Time Paradigm for Real-World Biosignal: Concept and Its Approach"
+    year: "preprint"
     authors: "Yong-Yeon Jo*, <b><u>Byong Tak Lee</u></b>*, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
     venue: "under review"
     paper_pdf: ""
