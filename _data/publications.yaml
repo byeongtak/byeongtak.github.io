@@ -2,7 +2,7 @@ papers:
   - title: "Graph Structure Based Data Augmentation"
     year: "2024"
     authors: "Kyung Geun Kim*, <b><u>Byeong Tak Lee</u></b>*"
-    venue: "Biomedical Engineering letters"
+    venue: "Biomedical Engineering Letters"
     paper_pdf: "https://arxiv.org/abs/2205.14619"
     selected: y
 
