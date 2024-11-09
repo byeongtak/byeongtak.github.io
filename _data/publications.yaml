@@ -29,7 +29,7 @@ papers:
 
   - title: "On the Inductive Bias Transfer with Knowledge Distillation for Real World Data"
     year: 2022
-    authors: "Byeong Tak Lee, Yong-Yeon Jo, Joon-myoung Kwon"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-myoung Kwon"
     venue: "Workshop on Applied Machine Learning Methods for Time Series forecasting"
     paper_pdf: "https://ceur-ws.org/Vol-3375/paper1.pdf"
     selected: y
@@ -57,7 +57,7 @@ papers:
 
   - title: "Graph Convolutional Networks-Based Noisy Data Imputation in Electronic Health Record"
     year: 2020
-    authors: "<b><u>Byong Tak Lee</u></b>*, O-Yeon Kwon*, Hyungho Park, Kyung-Jae Cho, Joon-Myoung Kwon, Yeha Lee"
+    authors: "<b><u>Byeong Tak Lee</u></b>*, O-Yeon Kwon*, Hyungho Park, Kyung-Jae Cho, Joon-Myoung Kwon, Yeha Lee"
     venue: "Critical Care Medicine"
     paper_pdf: "https://journals.lww.com/ccmjournal/abstract/2020/11000/graph_convolutional_networks_based_noisy_data.40.aspx?context=latestarticles"
     selected: y
@@ -85,21 +85,21 @@ papers:
     
   - title: "TADA: Temporal Adversarial Data Augmentation for Time Series Data"
     year: "preprint"
-    authors: "<b><u>Byong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2407.15174"
     selected: y
 
   - title: "Foundation Models for Electrocardiograms"
     year: "preprint"
-    authors: "Junho Song, Jong-Hwan Jang, <b><u>Byong Tak Lee</u></b>, DongGyun Hong, Joon-myoung Kwon, Yong-Yeon Jo"
+    authors: "Junho Song, Jong-Hwan Jang, <b><u>Byeong Tak Lee</u></b>, DongGyun Hong, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2407.07110"
     selected: y
 
   - title: "New Test-Time Paradigm for Real-World Biosignal: Concept and Its Approach"
     year: "preprint"
-    authors: "Yong-Yeon Jo*, <b><u>Byong Tak Lee</u></b>*, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
+    authors: "Yong-Yeon Jo*, <b><u>Byeong Tak Lee</u></b>*, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
     venue: "under review"
     paper_pdf: ""
     selected: y
