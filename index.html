@@ -46,6 +46,69 @@ layout: default
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h5>Publications</h5>
+  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
+  <sup><b>*</b></sup> indicates equal contribution.</p>
+
+  <ul class="tab-nav">
+    <li><div class="button" data-ref="#papers-preprint">Preprint</div></li>
+    <li><div class="button" data-ref="#papers-reviewed">Peer Reviewed</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <!-- Tab: Preprint -->
+    <div class="tab-pane" id="papers-preprint">
+      {% assign preprints = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in preprints %}
+        <div class="paper">
+          <div class="row">
+            <div class="twelve columns">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Tab: Peer Reviewed -->
+    <div class="tab-pane" id="papers-reviewed">
+      {% assign reviewed_papers = site.data.publications.papers | where: "selected", "n" %}
+      {% for paper in reviewed_papers %}
+        <div class="paper">
+          <div class="row">
+            <div class="twelve columns">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i></p>
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<!-- 
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h5>Publications</h5>
 
   <!-- <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
   </p>
@@ -145,9 +208,9 @@ layout: default
           </div>
         </div>
     {% endfor %}
-    </div> -->
+    </div> 
     
-</div>
+</div> -->
 
 <!-- ========== PROJECTS ========== -->
 <!-- <div class="docs-section" id="projects">
