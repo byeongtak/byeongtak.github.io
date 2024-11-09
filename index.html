@@ -109,7 +109,7 @@ layout: default
 
 <!-- ========== PROJECTS ========== -->
 <!-- <div class="docs-section" id="projects">
-  <h4>Projects</h4>
+  <h5>Projects</h5>
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
@@ -183,7 +183,7 @@ layout: default
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
-  <h4>Vitæ</h4>
+  <h5>Vitæ</h5>
 
   <p>Full CV in <a href={{ "/assets/cv/CV.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
@@ -206,27 +206,48 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-
-
+  
 <!-- ========== MISC ========== -->
 <div class="docs-section" id="misc">
-  <h5>Miscellaneous</h5>
-  <p>
-    <img src="assets/profile-pics/Yy.png" alt="Yaya" style="float:right;width:200px">
-    <img src="assets/profile-pics/Yy.png" alt="Yaya" style="float:right;width:200px">
-    <img src="assets/profile-pics/Yy.png" alt="Yaya" style="float:right;width:200px">
-    I have a very sweet tuxedo cat named Yaya. He was born in Chirstmas 2021, and was adopted by me in March 2023.
-    I originally named him Toothless after Toothless in <a href="https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_(film)" target="_blank">How to Train Your Dragon</a>, which is one of my favorite animations.
-    Since we usually talk to him in Mandarin, we decided to name him Yaya ('tooth' in Mandarin) instead.
-  </p>
+    <h5>Miscellaneous</h5>
+    
+    <!-- Image Grid for Photos -->
+    <div class="image-grid">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+        <img src="assets/profile-pics/Yy.png" alt="Yaya">
+    </div>
 
-  <p>
-    I like
-    My favorite artist is <a href="https://www.taylorswift.com/" target="_blank">Taylor Swift</a>, and I have been to her concerts in  Shanghai (1989), Pittsburgh (Reputation), and Chicago (The Eras).
-    I am also a fan of KPop, and would keep an eye on the latest KPop combacks of multiple girl groups.
-    Feel free to reach out to me if you share similar interests with me!
-  </p>
+    <p>
+        I have a very sweet tuxedo cat named Yaya. He was born in Christmas 2021, and was adopted by me in March 2023.
+        I originally named him Toothless after Toothless in <a href="https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_(film)" target="_blank">How to Train Your Dragon</a>, which is one of my favorite animations.
+        Since we usually talk to him in Mandarin, we decided to name him Yaya ('tooth' in Mandarin) instead.
+    </p>
+
+    <p>
+        I like
+        My favorite artist is <a href="https://www.taylorswift.com/" target="_blank">Taylor Swift</a>, and I have been to her concerts in Shanghai (1989), Pittsburgh (Reputation), and Chicago (The Eras).
+        I am also a fan of KPop, and would keep an eye on the latest KPop comebacks of multiple girl groups.
+        Feel free to reach out to me if you share similar interests with me!
+    </p>
 </div>
-  
+
+<style>
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Creates four columns */
+        grid-gap: 10px; /* Spacing between images */
+    }
+
+    .image-grid img {
+        width: 100%; /* Each image will fill the column width */
+        height: auto; /* Maintain aspect ratio */
+    }
+</style>
 
 
