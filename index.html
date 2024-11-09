@@ -58,7 +58,7 @@ layout: default
   <div class="tab-content">
     <!-- Tab: Preprint -->
     <div class="tab-pane" id="papers-preprint">
-      {% assign paperspreprint = site.data.publications.papers | where: "year", "preprint" %}
+      {% assign preprints = site.data.publications.papers | where: "year", "preprint" %}	    
       {% for paper in preprints %}
         <div class="paper">
           <div class="row">
