@@ -82,7 +82,7 @@ layout: default
 
     <!-- Tab: Peer Reviewed -->
     <div class="tab-pane" id="papers-reviewed">
-      {% assign reviewed_papers = site.data.publications.papers | where: "selected", "n" %}
+      {% assign reviewed_papers = site.data.publications.papers | where_exp: "item", "item.year != 'preprint'" %}
       {% for paper in reviewed_papers %}
         <div class="paper">
           <div class="row">
