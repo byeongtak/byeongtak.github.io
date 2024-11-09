@@ -1,7 +1,7 @@
 papers:
   - title: "Self Attention with Temporal Prior: Can We Learn More from Arrow of Time?"
     year: 2024
-    authors: "<b><u>Kyung Geun Kim</u></b>*, <b><u>Byeong Tak Lee</u></b>*"
+    authors: "Kyung Geun Kim*, <b><u>Byeong Tak Lee</u></b>*"
     venue: "Frontiers in Artificial Intelligence"
     paper_pdf: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1397298/full"
     selected: y
