@@ -1,115 +1,94 @@
 papers:
   - title: "Self Attention with Temporal Prior: Can We Learn More from Arrow of Time?"
     year: 2024
-    authors: "<b><u>KG. Kim</u></b>*, <b><u>BT. Lee</u></b>*"
+    authors: "<b><u>Kyung Geun Kim</u></b>*, <b><u>Byeong Tak Lee</u></b>*"
     venue: "Frontiers in Artificial Intelligence"
-    paper_pdf: "https://arxiv.org/abs/2406.05761"
+    paper_pdf: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1397298/full"
     selected: y
 
   - title: "Usefulness of Deep Learning Algorithm for Detecting Acute Myocardial Infarction Using Electrocardiogram Alone in Patients With Chest Pain at Emergency Department: DAMI-ECG Study"
     year: 2023
-    authors: "<b><u>BT. Lee</u></b>*, J. Kwon*, J. Cho, W. Bae, H. Park, WW. Seo, I. Cho, Y. Lee, J. Park, B. Oh, K. J."
+    authors: "<b><u>Byeong Tak Lee</u></b>*, Joom-myoung Kwon*, Jinwoo Cho, Woong Bae, Hyunho Park, Won-Woo Seo, Iksung Cho, Yeha Lee, Jinsik Park, Byung-Hee Oh, Ki-Hyun Jeon"
     venue: "Journal of Cardiovascular Intervention"
-    paper_pdf: "https://arxiv.org/abs/2410.16153"
+    paper_pdf: "https://e-jci.org/DOIx.php?id=10.54912/jci.2022.0028"
     selected: y
 
   - title: "Efficient Data Augmentation Policy for Electrocardiograms"
     year: 2022
-    authors: "<b><u>BT. Lee</u></b>*, YY Jo*, SY. Lim, Y. Song, J. Kwon"
+    authors: "<b><u>Byeong Tak Lee</u></b>*, Yong-Yeon Jo*, Seon-Yu Lim, Youngjae Song, Joon-myoung Kwon"
     venue: "Proceedings of the 31st ACM International Conference on Information & Knowledge Management"
-    paper_pdf: "https://arxiv.org/abs/2410.17578"
+    paper_pdf: "https://dl.acm.org/doi/abs/10.1145/3511808.3557591"
     selected: y
 
   - title: "On the Inductive Bias Transfer with Knowledge Distillation for Real World Data"
     year: 2022
-    authors: "BT. Lee, YY. Jo, J. Kwon"
+    authors: "Byeong Tak Lee, Yong-Yeon Jo, Joon-myoung Kwon"
     venue: "Workshop on Applied Machine Learning Methods for Time Series forecasting"
-    paper_pdf: "https://arxiv.org/abs/2410.02902"
+    paper_pdf: "https://ceur-ws.org/Vol-3375/paper1.pdf"
     selected: y
 
   - title: "Automated Detection of Acute Myocardial Infarction Using Asynchronous Electrocardiogram Signals—Preview of Implementing Artificial Intelligence With Multichannel Electrocardiographs Obtained from Smartwatches: Retrospective Study"
     year: 2021
-    authors: "C. Han, Y. Song, HS. Lim, Y. Tae, JH. Jang, <b><u>BT. Lee</u></b>, Y. Lee, W. Bae, D. Yoon"
+    authors: "Changho Han, Youngjae Song, Hong-Seok Lim, Yunwon Tae, Jong-Hwan Jang, <b><u>Byeong Tak Lee</u></b>, Yeha Lee, Woong Bae, Dukyong Yoon"
     venue: "Journal of Medical Internet Research"
-    paper_pdf: "https://arxiv.org/abs/2410.02902"
-    selected: y
-
-  - title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-    authors: "Guijin Son, Hanwool Lee, Sungdong Kim, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Taekyoon Choi, Cheonbok Park, Kang Min Yoo, Stella Biderman"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2402.11548"
-    code: "https://github.com/EleutherAI/lm-evaluation-harness/tree/4eba9cf390e2bcee120c3612119fd9b13407f290/lm_eval/tasks/kmmlu"
+    paper_pdf: "https://www.jmir.org/2021/9/e31129/"
     selected: y
     
   - title: "Artificial intelligence algorithm for screening heart failure with reduced ejection fraction using electrocardiography"
     year: 2021
-    authors: "J. Cho*, <b><u>BT. Lee</u></b>*, J. Kwon, Y. Lee, H. Park, B. Oh, K. Jeon, J. Park, K. Kim"
+    authors: "Jinwoo Cho*, <b><u>Byeong Tak Lee</u></b>*, Joon-Myoung Kwon, Yeha Lee, Hyunho Park, Byung-Hee Oh, Ki-Hyun Jeon, Jinsik Park, Kyung-Hee Kim"
     venue: "ASAIO Journal"
-    paper_pdf: "https://arxiv.org/abs/2405.01535"
+    paper_pdf: "https://journals.lww.com/asaiojournal/fulltext/2021/03000/artificial_intelligence_algorithm_for_screening.15.aspx"
     selected: y
 
   - title: "Self-Supervised Learning with Electrocardiogram Delineation for Arrhythmia Detection"
     year: 2021
-    authors: "<b><u>BT. Lee</u></b>*, ST. Kong*, Y. Song, Y. Lee"
+    authors: "<b><u>Byeong Tak Lee</u></b>*, Seo Taek Kong*, Youngaje Song, Yeha Lee"
     venue: "Annual International Conference of the IEEE Engineering in Medicine & Biology Society"
-    paper_pdf: "https://arxiv.org/abs/2404.10346"
+    paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9630364"
     selected: y
 
   - title: "Graph Convolutional Networks-Based Noisy Data Imputation in Electronic Health Record"
     year: 2020
-    authors: "<b><u>BT. Lee</u></b>*, OY. Kwon*, H. Park, KJ. Cho, J. Kwon, Y. Lee"
+    authors: "<b><u>Byong Tak Lee</u></b>*, O-Yeon Kwon*, Hyungho Park, Kyung-Jae Cho, Joon-Myoung Kwon, Yeha Lee"
     venue: "Critical Care Medicine"
-    paper_pdf: "https://arxiv.org/abs/2404.02575"
-    selected: y
-
-  - title: "Consent in Crisis: The Rapid Decline of the AI Data Commons"
-    authors: "Shayne Longpre, Robert Mahari, Ariel Lee, Campbell Lund, Hamidah Oderinwale, William Brannon, Nayan Saxena, Naana Obeng-Marnu, Tobin South, Cole Hunter, Kevin Klyman, Christopher Klamm, Hailey Schoelkopf, Nikhil Singh, Manuel Cherep, Ahmad Anis, An Dinh, Caroline Chitongo, Da Yin, Damien Sileo, Deividas Mataciunas, Diganta Misra, Emad Alghamdi, Enrico Shippole, Jianguo Zhang, Joanna Materzynska, Kun Qian, Kush Tiwary, Lester James Validad Miranda, Manan Dey, Minnie Liang, Mohammed Hamdy, Niklas Muennighoff, Seonghyeon Ye, <b><u>Seungone Kim</u></b>, Shrestha Mohanty, Vipul Gupta, Vivek Sharma, Vu Minh Chien, Xuhui Zhou, Yizhi Li, Caiming Xiong, Luis Villa, Stella Biderman, Hanlin Li, Daphne Ippolito, Sara Hooker, Jad Kabbara, Sandy Pentland"
-    venue: "NeurIPS 2024"
-    paper_pdf: "https://arxiv.org/abs/2407.14933"
-    code: "https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection"
+    paper_pdf: "https://journals.lww.com/ccmjournal/abstract/2020/11000/graph_convolutional_networks_based_noisy_data.40.aspx?context=latestarticles"
     selected: y
 
   - title: "Pulse Oximeter Plethysmograph Variation During Hemorrhage in Beta Blocker–Treated Swine"
     year: 2020
-    authors: "YS. Jung*, WS. Cho*, GJ Suh, JC. Lee, WY. Kwon, KS. Kim, SM. Shin, MW. Kang, MS. Lee, <b><u>BT. Lee</u></b>"
+    authors: "Yoon Sun Jung*, Woo Sang Cho*, Gil Joon Suh, Jung Chan Lee, Woon Yong Kwon, Kyung Su Kim, So Mi Shin, Min Woo Kang, Min Sung Lee, <b><u>Byeong Tak Lee</u></b>"
     venue: "Journal of Surgical Research"
-    paper_pdf: "https://arxiv.org/abs/2405.17977"
-    selected: y
-
-  - title: "Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging"
-    authors: "Joel Jang, <b><u>Seungone Kim</u></b>, Bill Yuchen Lin, Yizhong Wang, Jack Hessel, Luke Zettlemoyer, Hannaneh Hajishirzi, Yejin Choi, Prithviraj Ammanabrolu"
-    venue: "NeurIPS 2024 AFM Workshop"
-    paper_pdf: "https://arxiv.org/abs/2310.11564"
-    code: "https://github.com/joeljang/RLPHF"
+    paper_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0022480420304613"
     selected: y
 
   - title: "Improving the Performance of a Neural Network for Early Prediction of Sepsis"
     year: 2019
-    authors: "BT. Lee, KJ. Cho, OY. Kwon, Y. Lee"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Kyung-Jae Cho, O-Yeon Kwon, Yeha Lee"
     venue: "Computing in Cardiology"
     paper_pdf: "https://arxiv.org/abs/2401.06591"
     selected: y
 
   - title: "Revisiting Neural Network Scale for ECG Classification"
-    authors: "<b><u>BT. Lee</u></b>*, YY. Jo*, J. Kwon"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-Myoung Kwon"
     venue: "under review"
-    paper_pdf: "https://arxiv.org/abs/2401.10695"
+    paper_pdf: "https://arxiv.org/abs/2308.12492"
     selected: y
 
   - title: "TADA: Temporal Adversarial Data Augmentation for Time Series Data"
-    authors: "BT. Lee, J. Kwon, YY. Jo"
+    authors: "<b><u>Byong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
-    paper_pdf: "https://arxiv.org/abs/2402.11597"
+    paper_pdf: "https://arxiv.org/abs/2407.15174"
     selected: y
 
   - title: "Foundation Models for Electrocardiograms"
-    authors: "J. Song, JH. Jang, <b><u>BT. Lee</u></b>, D. Hong, J. Kwon, YY. Jo"
+    authors: "Junho Song, Jong-Hwan Jang, <b><u>Byong Tak Lee</u></b>, DongGyun Hong, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
-    paper_pdf: "https://arxiv.org/abs/2310.08491"
+    paper_pdf: "https://arxiv.org/abs/2407.07110"
     selected: y
 
-  - title: "Personalized Blood Pressure Estimation via Test Time Domain Adaptation"
-    authors: "YY. Jo*, <b><u>BT. Lee</u></b>*, J. Kwon, BJ. Kim"
+  - title: "New Test-Time Paradigm for Real-World Biosignal: Concept and Its Approach"
+    authors: "Yong-Yeon Jo*, <b><u>Byong Tak Lee</u></b>*, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
     venue: "under review"
-    paper_pdf: "https://arxiv.org/abs/2307.10928"
+    paper_pdf: ""
     selected: y
