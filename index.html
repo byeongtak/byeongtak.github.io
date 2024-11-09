@@ -46,6 +46,7 @@ layout: default
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h5>Publications</h5>
+	
   <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
   <sup><b>*</b></sup> indicates equal contribution.</p>
 
@@ -57,7 +58,7 @@ layout: default
   <div class="tab-content">
     <!-- Tab: Preprint -->
     <div class="tab-pane" id="papers-preprint">
-      {% assign preprints = site.data.publications.papers | where: "selected", "y" %}
+      {% assign paperspreprint = site.data.publications.papers | where: "year", "preprint" %}
       {% for paper in preprints %}
         <div class="paper">
           <div class="row">
