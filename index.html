@@ -57,6 +57,7 @@ layout: default
   <ul class="tab-nav">
     <li><div class="button" data-ref="#papers-preprint">Preprint</div></li>
     <li><div class="button active" data-ref="#papers-reviewed">Published/Accepted</div></li>
+    <li><div class="button" data-ref="#patents">Patents</div></li>
   </ul>
 
   <div class="tab-content">
@@ -86,7 +87,7 @@ layout: default
 
     <!-- Tab: Peer Reviewed -->
     <div class="tab-pane active" id="papers-reviewed">
-      {% assign reviewed_papers = site.data.publications.papers | where_exp: "item", "item.year != 'preprint'" %}
+      {% assign reviewed_papers = site.data.publications.papers | where_exp: "item", "item.year != 'preprint' and item.type != 'patent'" %}
       {% for paper in reviewed_papers %}
         <div class="paper">
           <div class="row">
@@ -106,8 +107,32 @@ layout: default
           </div>
         </div>
       {% endfor %}
-
     </div>
+	  
+    <!-- Tab: Patents -->
+    <div class="tab-pane active" id="patents">
+      {% assign patents = site.data.publications.papers | where_exp: "item", "item.year != 'preprint' and item.type == 'patent'" %}\
+      {% for paper in patents %} -->
+        <div class="paper">
+          <div class="row">
+            <div class="twelve columns">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              <p><i>{{ paper.venue }}</i> ({{ paper.year }})</p>
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                {% endif %}
+                {% if paper.code %}
+                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+	  
   </div>
 </div>
 
