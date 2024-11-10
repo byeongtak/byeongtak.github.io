@@ -103,3 +103,11 @@ papers:
     venue: "under review"
     paper_pdf: ""
     selected: y
+
+  - title: "Optimizing Inductive Bias in Networks with a Generalized Self-Attention Layer"
+    year: "preprint"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
+    venue: "under working"
+    paper_pdf: ""
+    selected: y
+
