@@ -111,7 +111,7 @@ layout: default
 	  
     <!-- Tab: Patents -->
     <div class="tab-pane active" id="patents">
-      {% assign patents = site.data.publications.papers | where_exp: "item", "item.year != 'preprint' and item.type == 'patent'" %}\
+      {% assign patents = site.data.publications.papers | where_exp: "item", "item.type == 'patent'" %}\
       {% for paper in patents %} -->
         <div class="paper">
           <div class="row">
@@ -121,7 +121,7 @@ layout: default
               <p><i>{{ paper.venue }}</i></p>
               <div class="paper-buttons">
                 {% if paper.paper_pdf %}
-                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Patent</a>
                 {% endif %}
                 {% if paper.code %}
                   <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
