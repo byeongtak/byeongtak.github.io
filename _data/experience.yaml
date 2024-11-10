@@ -15,7 +15,7 @@ experiences:
 - place: "Seoul National University"
   time: "Aug. 2015 - Aug. 2017"
   title: "M.S. in Bioengineering"
-  subtitle: "Advisor: <a href="https://myriad.snu.ac.kr/" style="text-decoration: none;">Jung Chan Lee</a>"
+  subtitle: "Advisor: <a href='https://myriad.snu.ac.kr/' style='text-decoration: none;'>Jung Chan Lee</a>"
   category: "school"
 
 - place: "Pusan National University"
