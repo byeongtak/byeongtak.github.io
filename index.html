@@ -108,9 +108,10 @@ layout: default
         </div>
       {% endfor %}
     </div>
-	  
+
+
     <!-- Tab: Patents -->
-    <div class="tab-pane active" id="patents">
+    <div class="tab-pane" id="patents">
       {% assign patents = site.data.publications.papers | where_exp: "item", "item.type == 'patent'" %}\
       {% for paper in patents %} -->
         <div class="paper">
