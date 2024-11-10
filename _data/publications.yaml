@@ -110,3 +110,24 @@ papers:
     venue: "in progress"
     selected: y
 
+  - title: "Automatic cardiopulmonary resuscitation device and control method therefor"
+    type: "patent"
+    authors: "Gil Joon Suh, Woon Yong Kwon, Kyung Su Kim, Sang Hoon Nam Jaeheung Park, Jung Chan Lee, Yoon Sun Jung, Kyoung Min You, Min Ji Parkm TaeGyun Kim, Jung-In Ko, Jeeseop Kim, Jaesug Jung, Sanghyun Kim, Byeong Wook Yoo, <b><u>Byeong Tak Lee</u></b>, Woo Sang Cho, Jin Woo Choi"
+    venue: "US11071686B2"
+    paper_pdf: "https://patents.google.com/patent/US11071686B2/en?q=(byeongtak+lee)&oq=byeongtak+lee"
+    selected: y
+
+  - title: "Disease judgment method"
+    type: "patent"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Woong Bae, Oyeon Kwon"
+    venue: "US20220076835A1"
+    paper_pdf: "https://patents.google.com/patent/US20220076835A1/en?q=(byeongtak+lee)&oq=byeongtak+lee"
+    selected: y
+
+  - title: "Deep neural network pre-training method for classifying electrocardiogram (ecg) data"
+    type: "patent"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Youngjae Song, Woong Bae, Oyeon Kwon"
+    venue: "US20220084679A1"
+    paper_pdf: "https://patents.google.com/patent/US20220084679A1/en?q=(byeongtak+lee)&oq=byeongtak+lee"
+    selected: y
+
