@@ -73,7 +73,7 @@ papers:
     year: 2019
     authors: "<b><u>Byeong Tak Lee</u></b>, Kyung-Jae Cho, O-Yeon Kwon, Yeha Lee"
     venue: "Computing in Cardiology"
-    paper_pdf: "https://arxiv.org/abs/2401.06591"
+    paper_pdf: "https://ieeexplore.ieee.org/document/9005754"
     selected: y
 
   - title: "Revisiting Neural Network Scale for ECG Classification"
