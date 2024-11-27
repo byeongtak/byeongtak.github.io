@@ -170,7 +170,7 @@ layout: default
 </div>
 
 <!-- ========== PROJECTS ========== -->
-<!-- <div class="docs-section" id="projects">
+<div class="docs-section" id="projects">
   <h5>Projects</h5>
 
   <ul class="tab-nav">
@@ -241,74 +241,8 @@ layout: default
     </div>
   </div>
 
-</div> -->
-
-<!-- ========== TABS ========== -->
-<div class="docs-section" id="projects">
-  <h5>Projects</h5>
-
-  <!-- Tab Navigation -->
-  <ul class="tab-nav">
-    <li>
-      <button class="tab-button active" onclick="openTab(event, 'highlight')">Highlight</button>
-    </li>
-    <li>
-      <button class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
-    </li>
-  </ul>
-
-  <!-- Tab Content -->
-  <div class="tab-content">
-
-    <!-- Highlight Tab -->
-    <div class="tab-pane active" id="highlight">
-      <div class="row">
-        <div class="six columns">
-          <p>
-            At Medical AI Co. Ltd, I developed cardiovascular disease screening products (AITIA Series) that were conferred as an innovative medical device from the Korean FDA and won the UNIST-UCLA Digital Healthcare Challenge in 2023.
-            They are currently used in many clinics and hospitals across Korea.
-          </p>
-        </div>
-        <div class="six columns">
-          <!-- Responsive YouTube Video -->
-          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-            <iframe 
-              src="https://www.youtube.com/embed/DzL9Py86i0k" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-            </iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Projects Tab -->
-    <div class="tab-pane" id="projects">
-      <h5>Selected Projects</h5>
-      <div class="row">
-        {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-        {% for project in selected_projects %}
-          <div class="six columns">
-            <div class="project-container">
-              <div class="project-image-container">
-                <a href="{{ project.url }}">
-                  <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                </a>
-              </div>
-              <div class="project-caption">
-                <b>{{ project.title }}</b> <br />
-                {{ project.subtitle }}
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-
-  </div>
 </div>
+
 
 
 <!-- ========== RESUME ========== -->
