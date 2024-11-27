@@ -88,8 +88,7 @@ layout: default
 
   <ul class="tab-nav">
     <li><div class="button" data-ref="#papers-preprint">Preprint</div></li>
-    <li><div class="button active" data-ref="#papers-reviewed">Published (Machine Learning)</div></li>
-<!--     <li><div class="button" data-ref="#papers-reviewed-medicine">Published (Medicine)</div></li> -->
+    <li><div class="button active" data-ref="#papers-reviewed">Published</div></li>
     <li><div class="button" data-ref="#patents">Patents</div></li>
   </ul>
 
@@ -121,7 +120,6 @@ layout: default
     <!-- Tab: Peer Reviewed -->
     <div class="tab-pane active" id="papers-reviewed">
       {% assign reviewed_papers = site.data.publications.papers | where_exp: "item", "item.year != 'preprint'" %}
-<!--       {% assign reviewed_papers = site.data.publications.papers | where_exp: "item", "item.year != 'preprint' and item.category == 'ML'" %} -->
       {% for paper in reviewed_papers %}
         <div class="paper">
           <div class="row">
@@ -142,8 +140,6 @@ layout: default
         </div>
       {% endfor %}
     </div>
-
-
 
     <!-- Tab: Patents -->
     <div class="tab-pane" id="patents">
