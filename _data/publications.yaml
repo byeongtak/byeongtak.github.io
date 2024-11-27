@@ -4,6 +4,7 @@ papers:
     authors: "Kyung Geun Kim*, <b><u>Byeong Tak Lee</u></b>*"
     venue: "Biomedical Engineering Letters"
     paper_pdf: "https://arxiv.org/abs/2205.14619"
+    category: "ML"
     selected: y
 
   - title: "Self Attention with Temporal Prior: Can We Learn More from Arrow of Time?"
@@ -11,6 +12,7 @@ papers:
     authors: "Kyung Geun Kim*, <b><u>Byeong Tak Lee</u></b>*"
     venue: "Frontiers in Artificial Intelligence"
     paper_pdf: "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1397298/full"
+    category: "ML"
     selected: y
 
   - title: "Usefulness of Deep Learning Algorithm for Detecting Acute Myocardial Infarction Using Electrocardiogram Alone in Patients With Chest Pain at Emergency Department: DAMI-ECG Study"
@@ -18,6 +20,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>*, Joom-myoung Kwon*, Jinwoo Cho, Woong Bae, Hyunho Park, Won-Woo Seo, Iksung Cho, Yeha Lee, Jinsik Park, Byung-Hee Oh, Ki-Hyun Jeon"
     venue: "Journal of Cardiovascular Intervention"
     paper_pdf: "https://e-jci.org/DOIx.php?id=10.54912/jci.2022.0028"
+    category: "medicine"
     selected: y
 
   - title: "Efficient Data Augmentation Policy for Electrocardiograms"
@@ -25,6 +28,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>*, Yong-Yeon Jo*, Seon-Yu Lim, Youngjae Song, Joon-myoung Kwon"
     venue: "Proceedings of the 31st ACM International Conference on Information & Knowledge Management"
     paper_pdf: "https://dl.acm.org/doi/abs/10.1145/3511808.3557591"
+    category: "ML"
     selected: y
 
   - title: "On the Inductive Bias Transfer with Knowledge Distillation for Real World Data"
@@ -32,6 +36,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-myoung Kwon"
     venue: "Workshop on Applied Machine Learning Methods for Time Series forecasting"
     paper_pdf: "https://ceur-ws.org/Vol-3375/paper1.pdf"
+    category: "ML"
     selected: y
 
   - title: "Automated Detection of Acute Myocardial Infarction Using Asynchronous Electrocardiogram Signals—Preview of Implementing Artificial Intelligence With Multichannel Electrocardiographs Obtained from Smartwatches: Retrospective Study"
@@ -39,6 +44,7 @@ papers:
     authors: "Changho Han, Youngjae Song, Hong-Seok Lim, Yunwon Tae, Jong-Hwan Jang, <b><u>Byeong Tak Lee</u></b>, Yeha Lee, Woong Bae, Dukyong Yoon"
     venue: "Journal of Medical Internet Research"
     paper_pdf: "https://www.jmir.org/2021/9/e31129/"
+    category: "medicine"
     selected: y
     
   - title: "Artificial intelligence algorithm for screening heart failure with reduced ejection fraction using electrocardiography"
@@ -46,6 +52,7 @@ papers:
     authors: "Jinwoo Cho*, <b><u>Byeong Tak Lee</u></b>*, Joon-Myoung Kwon, Yeha Lee, Hyunho Park, Byung-Hee Oh, Ki-Hyun Jeon, Jinsik Park, Kyung-Hee Kim"
     venue: "ASAIO Journal"
     paper_pdf: "https://journals.lww.com/asaiojournal/fulltext/2021/03000/artificial_intelligence_algorithm_for_screening.15.aspx"
+    category: "medicine"
     selected: y
 
   - title: "Self-Supervised Learning with Electrocardiogram Delineation for Arrhythmia Detection"
@@ -53,6 +60,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>*, Seo Taek Kong*, Youngaje Song, Yeha Lee"
     venue: "Annual International Conference of the IEEE Engineering in Medicine & Biology Society"
     paper_pdf: "https://ieeexplore.ieee.org/abstract/document/9630364"
+    category: "ML"
     selected: y
 
   - title: "Graph Convolutional Networks-Based Noisy Data Imputation in Electronic Health Record"
@@ -60,6 +68,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>*, O-Yeon Kwon*, Hyungho Park, Kyung-Jae Cho, Joon-Myoung Kwon, Yeha Lee"
     venue: "Critical Care Medicine"
     paper_pdf: "https://journals.lww.com/ccmjournal/abstract/2020/11000/graph_convolutional_networks_based_noisy_data.40.aspx?context=latestarticles"
+    category: "ML"
     selected: y
 
   - title: "Pulse Oximeter Plethysmograph Variation During Hemorrhage in Beta Blocker–Treated Swine"
@@ -67,6 +76,7 @@ papers:
     authors: "Yoon Sun Jung*, Woo Sang Cho*, Gil Joon Suh, Jung Chan Lee, Woon Yong Kwon, Kyung Su Kim, So Mi Shin, Min Woo Kang, Min Sung Lee, <b><u>Byeong Tak Lee</u></b>"
     venue: "Journal of Surgical Research"
     paper_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0022480420304613"
+    category: "medicine"
     selected: y
 
   - title: "Improving the Performance of a Neural Network for Early Prediction of Sepsis"
@@ -74,6 +84,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>, Kyung-Jae Cho, O-Yeon Kwon, Yeha Lee"
     venue: "Computing in Cardiology"
     paper_pdf: "https://ieeexplore.ieee.org/document/9005754"
+    category: "ML"
     selected: y
 
   - title: "Revisiting Neural Network Scale for ECG Classification"
@@ -81,6 +92,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-Myoung Kwon"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2308.12492"
+    category: "ML"
     selected: y
     
   - title: "TADA: Temporal Adversarial Data Augmentation for Time Series Data"
@@ -88,6 +100,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2407.15174"
+    category: "ML"
     selected: y
 
   - title: "Foundation Models for Electrocardiograms"
@@ -95,13 +108,15 @@ papers:
     authors: "Junho Song, Jong-Hwan Jang, <b><u>Byeong Tak Lee</u></b>, DongGyun Hong, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "under review"
     paper_pdf: "https://arxiv.org/abs/2407.07110"
+    category: "ML"
     selected: y
 
   - title: "New Test-Time Paradigm for Real-World Biosignal: Concept and Its Approach"
-    year: "preprint"
+    year: "2024"
     authors: "Yong-Yeon Jo*, <b><u>Byeong Tak Lee</u></b>*, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
-    venue: "under review"
+    venue: "Machine Learning for Health (findings)"
     paper_pdf: ""
+    category: "ML"
     selected: y
 
   - title: "Optimizing Inductive Bias in Networks with a Generalized Self-Attention Layer"
@@ -109,6 +124,7 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>, Joon-myoung Kwon, Yong-Yeon Jo"
     venue: "in progress"
     paper_pdf: ""
+    category: "ML"
     selected: y
 
 patents:
