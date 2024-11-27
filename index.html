@@ -247,26 +247,19 @@ layout: default
 <div class="docs-section" id="projects">
   <h5>Projects</h5>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <!-- Highlight Section -->
+  <!-- Highlight Section -->
+  <div class="docs-section" id="highlight">
+    <h5>Highlight</h5>
     <div class="row">
       <div class="six columns">
-        <div class="highlight-text">
-          <h5>Highlight</h5>
-          <p>
-            At Medical AI Co. Ltd, I developed cardiovascular disease screening products (AITIA Series) that were conferred as an innovative medical device from the Korean FDA and won the UNIST-UCLA Digital Healthcare Challenge in 2023.
-            They are currently used in many clinics and hospitals across Korea.
-          </p>
-        </div>
+        <p>
+          At Medical AI Co. Ltd, I developed cardiovascular disease screening products (AITIA Series) that were conferred as an innovative medical device from the Korean FDA and won the UNIST-UCLA Digital Healthcare Challenge in 2023.
+          They are currently used in many clinics and hospitals across Korea.
+        </p>
       </div>
       <div class="six columns">
         <!-- Responsive YouTube Video -->
-        <div class="highlight-video" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
           <iframe 
             src="https://www.youtube.com/embed/DzL9Py86i0k" 
             frameborder="0" 
@@ -277,17 +270,16 @@ layout: default
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Selected Projects -->
+  <!-- Selected Projects Section -->
+  <div class="tab-content">
     <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
+      <h5>Selected Projects</h5>
+      <div class="row">
+        {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+        {% for project in selected_projects %}
+          <div class="six columns">
             <div class="project-container">
               <div class="project-image-container">
                 <a href="{{ project.url }}">
@@ -295,44 +287,13 @@ layout: default
                 </a>
               </div>
               <div class="project-caption">
-                <b>{{ project.title }}</b> <br/>
+                <b>{{ project.title }}</b> <br />
                 {{ project.subtitle }}
               </div>
             </div>
           </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <!-- All Projects -->
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-              <div class="project-image-container">
-                <a href="{{ project.url }}">
-                  <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                </a>
-              </div>
-              <div class="project-caption">
-                <b>{{ project.title }}</b> <br/>
-                {{ project.subtitle }}
-              </div>
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
