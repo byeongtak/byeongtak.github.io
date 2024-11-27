@@ -174,70 +174,29 @@ layout: default
   <h5>Projects</h5>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
+    <li><div class="button active" data-ref="#projects-aitia">AI in Medical Practics</div></li>
+    <li><div class="button" data-ref="#projects-automl">Automated ML System</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
+    <div class="tab-pane active" id="projects-aitia">
+	At Medial AI Co Ltd, I developed cardiovascular disease screening products (AITIA Series) that were conferred as an innovative medical device from the Korean FDA and won the UNIST-UCLA Digital Healthcare Challenge in 2023.
+	They are currently used in many clinics and hospitals across Korea.
+	<br><br>
+	<!-- Responsive YouTube Video -->
+	<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+		<iframe 
+			src="https://www.youtube.com/embed/DzL9Py86i0k" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen
+			style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+		</iframe>
+	</div>
     </div>
 
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
+    <div class="tab-pane" id="projects-automl">
 
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
     </div>
   </div>
 
