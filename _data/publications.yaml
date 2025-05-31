@@ -7,6 +7,14 @@ papers:
     category: "ML"
     selected: y
 
+  - title: "Unveiling the secrets of neural network scaling for ECG classification"
+    year: "2025"
+    authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-Myoung Kwon"
+    venue: "Informatics in Medicine Unlocked"
+    paper_pdf: "https://www.sciencedirect.com/science/article/pii/S2352914825000279"
+    category: "ML"
+    selected: y
+
   - title: "Graph Structure Based Data Augmentation"
     year: "2024"
     authors: "Kyung Geun Kim*, <b><u>Byeong Tak Lee</u></b>*"
@@ -92,14 +100,6 @@ papers:
     authors: "<b><u>Byeong Tak Lee</u></b>, Kyung-Jae Cho, O-Yeon Kwon, Yeha Lee"
     venue: "Computing in Cardiology"
     paper_pdf: "https://ieeexplore.ieee.org/document/9005754"
-    category: "ML"
-    selected: y
-
-  - title: "Unveiling the secrets of neural network scaling for ECG classification"
-    year: "2025"
-    authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-Myoung Kwon"
-    venue: "Informatics in Medicine Unlocked"
-    paper_pdf: "https://www.sciencedirect.com/science/article/pii/S2352914825000279"
     category: "ML"
     selected: y
     
