@@ -1,8 +1,8 @@
 papers:
-  - title: "New Test-Time Paradigm for Real-World Biosignal: Concept and Its Approach"
-    year: "2024"
-    authors: "Yong-Yeon Jo*, <b><u>Byeong Tak Lee</u></b>*, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
-    venue: "Machine Learning for Health (findings)"
+  - title: "Test-Time Calibration: A Framework for Personalized Test-Time Adaptation in Real-World Biosignals"
+    year: "2025"
+    authors: "Yong-Yeon Jo*, <b><u>Byeong Tak Lee</u></b>, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
+    venue: "Annual Conference on Health, Inference, and Learning"
     paper_pdf: ""
     category: "ML"
     selected: y
@@ -95,11 +95,11 @@ papers:
     category: "ML"
     selected: y
 
-  - title: "Revisiting Neural Network Scale for ECG Classification"
-    year: "preprint"
+  - title: "Unveiling the secrets of neural network scaling for ECG classification"
+    year: "2025"
     authors: "<b><u>Byeong Tak Lee</u></b>, Yong-Yeon Jo, Joon-Myoung Kwon"
-    venue: "under review"
-    paper_pdf: "https://arxiv.org/abs/2308.12492"
+    venue: "Informatics in Medicine Unlocked"
+    paper_pdf: "https://www.sciencedirect.com/science/article/pii/S2352914825000279"
     category: "ML"
     selected: y
     
