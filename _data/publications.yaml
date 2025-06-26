@@ -1,7 +1,7 @@
 papers:
   - title: "Test-Time Calibration: A Framework for Personalized Test-Time Adaptation in Real-World Biosignals"
     year: "2025"
-    authors: "Yong-Yeon Jo*, <b><u>Byeong Tak Lee</u></b>, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
+    authors: "Yong-Yeon Jo, <b><u>Byeong Tak Lee</u></b>, Beom Joon Kim, Jeong-Ho Hong, Hak Seung Lee, Joon-myoung Kwon"
     venue: "Annual Conference on Health, Inference, and Learning"
     paper_pdf: ""
     category: "ML"
